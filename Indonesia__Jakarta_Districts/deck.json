@@ -1,0 +1,723 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "4cb473c4-8dbe-11f1-9b74-a342a3ddf96b",
+    "deck_config_uuid": "7064ed2c-0f37-11f1-a731-f1a8b921d120",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "7064ed2c-0f37-11f1-a731-f1a8b921d120",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [
+                0.41248584,
+                1.1741884,
+                2.4291685,
+                4.5123644,
+                6.295479,
+                0.86918014,
+                3.0655746,
+                0.0077403164,
+                1.9667486,
+                0.06681776,
+                0.89053684,
+                1.5037316,
+                0.03837727,
+                0.35278338,
+                1.6137046,
+                0.59343964,
+                1.9492564,
+                0.64508533,
+                0.1618641,
+                0.08426477,
+                0.1
+            ],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "1970-01-01",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 16,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "4",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 4
+            },
+            "newGatherPriority": 5,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 999
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 4,
+    "extendRev": 5,
+    "media_files": [
+        "_jakarta_districts_no_label_.png",
+        "cakung.png",
+        "cempaka_putih.png",
+        "cengkareng.png",
+        "cilandak.png",
+        "cilincing.png",
+        "cipayung.png",
+        "ciracas.png",
+        "duren_sawit.png",
+        "gambir.png",
+        "grogol_petamburan.png",
+        "jagakarsa.png",
+        "jatinegara.png",
+        "johar_baru.png",
+        "kalideres.png",
+        "kebayoran_baru.png",
+        "kebayoran_lama.png",
+        "kebon_jeruk.png",
+        "kelapa_gading.png",
+        "kemayoran.png",
+        "kembangan.png",
+        "koja.png",
+        "kramat_jati.png",
+        "makasar.png",
+        "mampang_prapatan.png",
+        "matraman.png",
+        "menteng.png",
+        "pademangan.png",
+        "palmerah.png",
+        "pancoran.png",
+        "pasar_minggu.png",
+        "pasar_rebo.png",
+        "penjaringan.png",
+        "pesanggrahan.png",
+        "pulo_gadung.png",
+        "sawah_besar.png",
+        "senen.png",
+        "setiabudi.png",
+        "taman_sari.png",
+        "tambora.png",
+        "tanah_abang.png",
+        "tanjung_priok.png",
+        "tebet.png"
+    ],
+    "name": "Indonesia::Jakarta Districts",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Liberation Sans",
+                    "id": 8952779515712855190,
+                    "name": "kecamatan",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 6575914258077255551,
+                    "name": "kota",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 874920804290765771,
+                    "name": "map_highlight",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Jakarta",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{kecamatan}} - {{kota}}\n\n<hr id=answer>\n\n{{map_highlight}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{kecamatan}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 2348393217284972138,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{kecamatan}}\n\n<hr id=answer>\n\n<img src=\"_jakarta_districts_no_label_.png\">"
+                },
+                {
+                    "afmt": "{{kecamatan}} - {{kota}}\n\n<hr id=answer>\n\n{{map_highlight}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -8912608916373098894,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "?\n\n<hr id=answer>\n\n{{map_highlight}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Setiabudi",
+                "Jakarta Selatan",
+                "<img src=\"setiabudi.png\">"
+            ],
+            "guid": "@Y@<MAuGV",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tebet",
+                "Jakarta Selatan",
+                "<img src=\"tebet.png\">"
+            ],
+            "guid": "Im9YX9|Uc?",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pancoran",
+                "Jakarta Selatan",
+                "<img src=\"pancoran.png\">"
+            ],
+            "guid": "p;;Ar|!S)m",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mampang Prapatan",
+                "Jakarta Selatan",
+                "<img src=\"mampang_prapatan.png\">"
+            ],
+            "guid": "NcUjwU;#Yt",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kebayoran Baru",
+                "Jakarta Selatan",
+                "<img src=\"kebayoran_baru.png\">"
+            ],
+            "guid": "DpH(Y|tJ:k",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kebayoran Lama",
+                "Jakarta Selatan",
+                "<img src=\"kebayoran_lama.png\">"
+            ],
+            "guid": "OZTE0JnOD,",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pesanggrahan",
+                "&nbsp;Jakarta Selatan",
+                "<img src=\"pesanggrahan.png\">"
+            ],
+            "guid": "NAA-P^d075",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cilandak",
+                "Jakarta Selatan",
+                "<img src=\"cilandak.png\">"
+            ],
+            "guid": "k8/MYW]skY",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pasar Minggu",
+                "Jakarta Selatan",
+                "<img src=\"pasar_minggu.png\">"
+            ],
+            "guid": "lEMncY[3?A",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jagakarsa",
+                "Jakarta Selatan",
+                "<img src=\"jagakarsa.png\">"
+            ],
+            "guid": "mB+~$_R{7$",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pasar Rebo",
+                "Jakarta Timur",
+                "<img src=\"pasar_rebo.png\">"
+            ],
+            "guid": "bRD/K(81U@",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciracas",
+                "Jakarta Timur",
+                "<img src=\"ciracas.png\">"
+            ],
+            "guid": "dy:h9^]#Xl",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cipayung",
+                "Jakarta Timur",
+                "<img src=\"cipayung.png\">"
+            ],
+            "guid": "pahaw[t2HR",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Makasar",
+                "Jakarta Timur",
+                "<img src=\"makasar.png\">"
+            ],
+            "guid": "ebXy39H1Ty",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kramat Jati",
+                "Jakarta Timur",
+                "<img src=\"kramat_jati.png\">"
+            ],
+            "guid": "r%#-6wWUU>",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Duren Sawit",
+                "Jakarta Timur",
+                "<img src=\"duren_sawit.png\">"
+            ],
+            "guid": "j8+2&*)1yC",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jatinegara",
+                "Jakarta Timur",
+                "<img src=\"jatinegara.png\">"
+            ],
+            "guid": "I2sMjdfAp0",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Matraman",
+                "Jakarta Timur",
+                "<img src=\"matraman.png\">"
+            ],
+            "guid": "hMiKfrQvww",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pulo Gadung",
+                "Jakarta Timur",
+                "<img src=\"pulo_gadung.png\">"
+            ],
+            "guid": "nWNDy@)Q)z",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cakung",
+                "Jakarta Timur",
+                "<img src=\"cakung.png\">"
+            ],
+            "guid": "x&+.JlyQk]",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cilincing",
+                "Jakarta Utara",
+                "<img src=\"cilincing.png\">"
+            ],
+            "guid": "HCF]MA;U__",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kelapa Gading",
+                "Jakarta Utara",
+                "<img src=\"kelapa_gading.png\">"
+            ],
+            "guid": "qzw~Gj9.fh",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Koja",
+                "Jakarta Utara",
+                "<img src=\"koja.png\">"
+            ],
+            "guid": "Li;P_t@JGy",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tanjung Priok",
+                "Jakarta Utara",
+                "<img src=\"tanjung_priok.png\">"
+            ],
+            "guid": "srdZJ2`j.0",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pademangan",
+                "Jakarta Utara",
+                "<img src=\"pademangan.png\">"
+            ],
+            "guid": "u&O~[gbx@d",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Penjaringan",
+                "Jakarta Utara",
+                "<img src=\"penjaringan.png\">"
+            ],
+            "guid": "tsM/-&+4g_",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sawah Besar",
+                "Jakarta Pusat",
+                "<img src=\"sawah_besar.png\">"
+            ],
+            "guid": "mp!$6#tlr:",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kemayoran",
+                "Jakarta Pusat",
+                "<img src=\"kemayoran.png\">"
+            ],
+            "guid": "nd9gn|8*vg",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cempaka Putih&nbsp;",
+                "Jakarta Pusat",
+                "<img src=\"cempaka_putih.png\">"
+            ],
+            "guid": "b{q]E@<@,|",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johar Baru",
+                "Jakarta Pusat",
+                "<img src=\"johar_baru.png\">"
+            ],
+            "guid": "Eh+g5j5OR&",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Senen",
+                "Jakarta Pusat",
+                "<img src=\"senen.png\">"
+            ],
+            "guid": "j0?$2}!V8g",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Menteng",
+                "Jakarta Pusat",
+                "<img src=\"menteng.png\">"
+            ],
+            "guid": "I2|>^zGwKh",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tanah Abang",
+                "Jakarta Pusat",
+                "<img src=\"tanah_abang.png\">"
+            ],
+            "guid": "Mt5)@FTLPU",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gambir",
+                "Jakarta Pusat",
+                "<img src=\"gambir.png\">"
+            ],
+            "guid": "NygBVD0]jT",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Taman Sari",
+                "Jakarta Barat",
+                "<img src=\"taman_sari.png\">"
+            ],
+            "guid": "m<brsZ>^xw",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tambora",
+                "Jakarta Barat",
+                "<img src=\"tambora.png\">"
+            ],
+            "guid": "y=+4_^aZ6$",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Grogol Petamburan",
+                "Jakarta Barat",
+                "<img src=\"grogol_petamburan.png\">"
+            ],
+            "guid": "v)|/}#e~IY",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Palmerah",
+                "Jakarta Barat",
+                "<img src=\"palmerah.png\">"
+            ],
+            "guid": "O&RbxRyceX",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kebon Jeruk",
+                "Jakarta Barat",
+                "<img src=\"kebon_jeruk.png\">"
+            ],
+            "guid": "vb!lK?:VlR",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kembangan",
+                "Jakarta Barat",
+                "<img src=\"kembangan.png\">"
+            ],
+            "guid": "wh(ti`6_t;",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cengkareng",
+                "Jakarta Barat",
+                "<img src=\"cengkareng.png\">"
+            ],
+            "guid": "PM~h&y{,GZ",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kalideres",
+                "Jakarta Barat",
+                "<img src=\"kalideres.png\">"
+            ],
+            "guid": "x)FZB>9ijm",
+            "note_model_uuid": "4cb59cb8-8dbe-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
