@@ -103,7 +103,46 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "aceh.svg",
+        "bali.svg",
+        "banten.svg",
+        "bengkulu.svg",
+        "di_yogyakarta.svg",
+        "dki_jakarta.svg",
+        "gorontalo.svg",
+        "jambi.svg",
+        "jawa_barat.svg",
+        "jawa_tengah.svg",
+        "jawa_timur.svg",
+        "kalimantan_barat.svg",
+        "kalimantan_selatan.svg",
+        "kalimantan_tengah.svg",
+        "kalimantan_timur.svg",
+        "kalimantan_utara.svg",
+        "kepulauan_bangka_belitung.svg",
+        "kepulauan_riau.svg",
+        "lampung.svg",
+        "maluku.svg",
+        "maluku_utara.svg",
+        "nusa_tenggara_barat.svg",
+        "nusa_tenggara_timur.svg",
+        "papua.svg",
+        "papua_barat.svg",
+        "papua_barat_daya.svg",
+        "papua_pegunungan.svg",
+        "papua_selatan.svg",
+        "papua_tengah.svg",
+        "riau.svg",
+        "sulawesi_barat.svg",
+        "sulawesi_selatan.svg",
+        "sulawesi_tengah.svg",
+        "sulawesi_tenggara.svg",
+        "sulawesi_utara.svg",
+        "sumatera_barat.svg",
+        "sumatera_selatan.svg",
+        "sumatera_utara.svg"
+    ],
     "name": "Indonesia::Provinces",
     "newLimit": null,
     "newLimitToday": null,
@@ -193,6 +232,20 @@
                     [
                         1
                     ]
+                ],
+                [
+                    2,
+                    "any",
+                    [
+                        2
+                    ]
+                ],
+                [
+                    3,
+                    "any",
+                    [
+                        0
+                    ]
                 ]
             ],
             "sortf": 0,
@@ -220,6 +273,30 @@
                     "name": "Card 2",
                     "ord": 1,
                     "qfmt": "<div style='font-size: 13px;'>Ibu Kota</div>\n\n{{Ibu Kota}}\n\n<hr id=answer>\n\n<div style='font-size: 13px;'>Provinsi</div>\n\n?"
+                },
+                {
+                    "afmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n{{Peta}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -5650777261839338468,
+                    "name": "Card 3",
+                    "ord": 2,
+                    "qfmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n?\n\n<hr id=answer>\n\n{{Peta}}"
+                },
+                {
+                    "afmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n{{Peta}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 1459117058900580872,
+                    "name": "Card 4",
+                    "ord": 3,
+                    "qfmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n<img src=\"indonesia.svg\">"
                 }
             ],
             "type": 0
@@ -231,7 +308,7 @@
             "fields": [
                 "Aceh",
                 "Banda Aceh",
-                "",
+                "<img src=\"aceh.svg\">",
                 "11"
             ],
             "guid": "r]d1osd+36",
@@ -243,7 +320,7 @@
             "fields": [
                 "Sumatera Utara",
                 "Medan",
-                "",
+                "<img src=\"sumatera_utara.svg\">",
                 "12"
             ],
             "guid": "y@tL-;hgtE",
@@ -255,7 +332,7 @@
             "fields": [
                 "Sumatera Barat",
                 "Padang",
-                "",
+                "<img src=\"sumatera_barat.svg\">",
                 "13"
             ],
             "guid": "PRw8*FL61K",
@@ -267,7 +344,7 @@
             "fields": [
                 "Riau",
                 "Pekanbaru",
-                "",
+                "<img src=\"riau.svg\">",
                 "14"
             ],
             "guid": "m3fC;`4=jO",
@@ -279,7 +356,7 @@
             "fields": [
                 "Jambi",
                 "Jambi",
-                "",
+                "<img src=\"jambi.svg\">",
                 "15"
             ],
             "guid": "qO%e|Uw0;i",
@@ -291,7 +368,7 @@
             "fields": [
                 "Sumatera Selatan",
                 "Palembang",
-                "",
+                "<img src=\"sumatera_selatan.svg\">",
                 "16"
             ],
             "guid": "v.A+R=Sqx:",
@@ -303,7 +380,7 @@
             "fields": [
                 "Bengkulu",
                 "Bengkulu",
-                "",
+                "<img src=\"bengkulu.svg\">",
                 "17"
             ],
             "guid": "A>@F2`xfqd",
@@ -315,7 +392,7 @@
             "fields": [
                 "Lampung",
                 "Bandar Lampung",
-                "",
+                "<img src=\"lampung.svg\">",
                 "18"
             ],
             "guid": "EIgk-RaP=n",
@@ -327,7 +404,7 @@
             "fields": [
                 "Kepulauan Bangka Belitung",
                 "Pangkalpinang",
-                "",
+                "<img src=\"kepulauan_bangka_belitung.svg\">",
                 "19"
             ],
             "guid": "G!ibv/EhiS",
@@ -339,7 +416,7 @@
             "fields": [
                 "Kepulauan Riau",
                 "Tanjung Pinang",
-                "",
+                "<img src=\"kepulauan_riau.svg\">",
                 "21"
             ],
             "guid": "iv{dE>CLu6",
@@ -351,7 +428,7 @@
             "fields": [
                 "DKI Jakarta",
                 "Jakarta",
-                "",
+                "<img src=\"dki_jakarta.svg\">",
                 "31"
             ],
             "guid": "nmk<*@pq3j",
@@ -363,7 +440,7 @@
             "fields": [
                 "Jawa Barat",
                 "Bandung",
-                "",
+                "<img src=\"jawa_barat.svg\">",
                 "32"
             ],
             "guid": "E]P+KdqS,z",
@@ -375,7 +452,7 @@
             "fields": [
                 "Jawa Tengah",
                 "Semarang",
-                "",
+                "<img src=\"jawa_tengah.svg\">",
                 "33"
             ],
             "guid": "hN~>)*{i*G",
@@ -387,7 +464,7 @@
             "fields": [
                 "DI Yogyakarta",
                 "Yogyakarta",
-                "",
+                "<img src=\"di_yogyakarta.svg\">",
                 "34"
             ],
             "guid": "zO?jp?&lgg",
@@ -399,7 +476,7 @@
             "fields": [
                 "Jawa Timur",
                 "Surabaya",
-                "",
+                "<img src=\"jawa_timur.svg\">",
                 "35"
             ],
             "guid": "hUJez|X8I$",
@@ -411,7 +488,7 @@
             "fields": [
                 "Banten",
                 "Serang",
-                "",
+                "<img src=\"banten.svg\">",
                 "36"
             ],
             "guid": "Q^>auJ!o-f",
@@ -423,7 +500,7 @@
             "fields": [
                 "Bali",
                 "Denpasar",
-                "",
+                "<img src=\"bali.svg\">",
                 "51"
             ],
             "guid": "u03uw__<}c",
@@ -435,7 +512,7 @@
             "fields": [
                 "Nusa Tenggara Barat",
                 "Mataram",
-                "",
+                "<img src=\"nusa_tenggara_barat.svg\">",
                 "52"
             ],
             "guid": "iwg-BkG]8U",
@@ -447,7 +524,7 @@
             "fields": [
                 "Nusa Tenggara Timur",
                 "Kupang",
-                "",
+                "<img src=\"nusa_tenggara_timur.svg\">",
                 "53"
             ],
             "guid": "H}Ed%zfW.[",
@@ -459,7 +536,7 @@
             "fields": [
                 "Kalimantan Barat",
                 "Pontianak",
-                "",
+                "<img src=\"kalimantan_barat.svg\">",
                 "61"
             ],
             "guid": "K;vrU-@^JL",
@@ -471,7 +548,7 @@
             "fields": [
                 "Kalimantan Tengah",
                 "Palangka Raya",
-                "",
+                "<img src=\"kalimantan_tengah.svg\">",
                 "62"
             ],
             "guid": "fPcRb}Gdg]",
@@ -483,7 +560,7 @@
             "fields": [
                 "Kalimantan Selatan",
                 "Banjarmasin",
-                "",
+                "<img src=\"kalimantan_selatan.svg\">",
                 "63"
             ],
             "guid": "q<[CWm$r:0",
@@ -495,7 +572,7 @@
             "fields": [
                 "Kalimantan Timur",
                 "Samarinda",
-                "",
+                "<img src=\"kalimantan_timur.svg\">",
                 "64"
             ],
             "guid": "g,,U~3K<u0",
@@ -507,7 +584,7 @@
             "fields": [
                 "Kalimantan Utara",
                 "Tanjung Selor",
-                "",
+                "<img src=\"kalimantan_utara.svg\">",
                 "65"
             ],
             "guid": "-1<@NXO91s",
@@ -519,7 +596,7 @@
             "fields": [
                 "Sulawesi Utara",
                 "Manado",
-                "",
+                "<img src=\"sulawesi_utara.svg\">",
                 "71"
             ],
             "guid": "(*edp=3Ae5",
@@ -531,7 +608,7 @@
             "fields": [
                 "Sulawesi Tengah",
                 "Palu",
-                "",
+                "<img src=\"sulawesi_tengah.svg\">",
                 "72"
             ],
             "guid": ":dBB,eZL7R",
@@ -543,7 +620,7 @@
             "fields": [
                 "Sulawesi Selatan",
                 "Makassar",
-                "",
+                "<img src=\"sulawesi_selatan.svg\">",
                 "73"
             ],
             "guid": "$1W9x,D%+m",
@@ -555,7 +632,7 @@
             "fields": [
                 "Sulawesi Tenggara",
                 "Kendari",
-                "",
+                "<img src=\"sulawesi_tenggara.svg\">",
                 "74"
             ],
             "guid": "%GR%#)Zl?m",
@@ -567,7 +644,7 @@
             "fields": [
                 "Gorontalo",
                 "Gorontalo",
-                "",
+                "<img src=\"gorontalo.svg\">",
                 "75"
             ],
             "guid": "?D9!m.1p%;",
@@ -579,7 +656,7 @@
             "fields": [
                 "Sulawesi Barat",
                 "Mamuju",
-                "",
+                "<img src=\"sulawesi_barat.svg\">",
                 "76"
             ],
             "guid": "+G:Vm3x{3P",
@@ -591,7 +668,7 @@
             "fields": [
                 "Maluku",
                 "Ambon",
-                "",
+                "<img src=\"maluku.svg\">",
                 "81"
             ],
             "guid": "pUpR:vdK3U",
@@ -603,7 +680,7 @@
             "fields": [
                 "Maluku Utara",
                 "Sofifi",
-                "",
+                "<img src=\"maluku_utara.svg\">",
                 "82"
             ],
             "guid": ":VfO{7gWH:",
@@ -615,7 +692,7 @@
             "fields": [
                 "Papua",
                 "Jayapura",
-                "",
+                "<img src=\"papua.svg\">",
                 "91"
             ],
             "guid": "]NrI*$mkhX",
@@ -627,7 +704,7 @@
             "fields": [
                 "Papua Barat",
                 "Manokwari",
-                "",
+                "<img src=\"papua_barat.svg\">",
                 "92"
             ],
             "guid": "/:bfGAdMZr",
@@ -639,7 +716,7 @@
             "fields": [
                 "Papua Selatan",
                 "Merauke",
-                "",
+                "<img src=\"papua_selatan.svg\">",
                 "93"
             ],
             "guid": "csJQXiy:p?",
@@ -651,7 +728,7 @@
             "fields": [
                 "Papua Tengah",
                 "Nabire",
-                "",
+                "<img src=\"papua_tengah.svg\">",
                 "94"
             ],
             "guid": "?5!{8c<njU",
@@ -663,7 +740,7 @@
             "fields": [
                 "Papua Pegunungan",
                 "Wamena",
-                "",
+                "<img src=\"papua_pegunungan.svg\">",
                 "95"
             ],
             "guid": "XPgr#iN.%6",
@@ -675,7 +752,7 @@
             "fields": [
                 "Papua Barat Daya",
                 "Sorong",
-                "",
+                "<img src=\"papua_barat_daya.svg\">",
                 "96"
             ],
             "guid": "X}K!<v[glc",
