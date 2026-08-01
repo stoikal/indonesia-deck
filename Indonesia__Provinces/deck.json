@@ -134,7 +134,7 @@
                     "excludeFromSearch": false,
                     "font": "Arial",
                     "id": 7104164952473239729,
-                    "name": "Ibukota",
+                    "name": "Ibu Kota",
                     "ord": 1,
                     "plainText": false,
                     "preventDeletion": false,
@@ -186,12 +186,19 @@
                     [
                         0
                     ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
                 ]
             ],
             "sortf": 0,
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Ibukota}}",
+                    "afmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n<div style='font-size: 13px;'>Ibu Kota</div>\n\n{{Ibu Kota}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "{{Provinsi}}",
@@ -200,7 +207,19 @@
                     "id": 2279402240815359867,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Provinsi}}"
+                    "qfmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n<div style='font-size: 13px;'>Ibu Kota</div>\n\n?"
+                },
+                {
+                    "afmt": "<div style='font-size: 13px;'>Ibu Kota</div>\n\n{{Ibu Kota}}\n\n<hr id=answer>\n\n<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -6679940465406870292,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "<div style='font-size: 13px;'>Ibu Kota</div>\n\n{{Ibu Kota}}\n\n<hr id=answer>\n\n<div style='font-size: 13px;'>Provinsi</div>\n\n?"
                 }
             ],
             "type": 0
