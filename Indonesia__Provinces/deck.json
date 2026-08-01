@@ -1,0 +1,669 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "a952fe44-8dc2-11f1-9b74-a342a3ddf96b",
+    "deck_config_uuid": "b5ac3510-1a8c-11f1-b08a-099f8ddf8e57",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "b5ac3510-1a8c-11f1-b08a-099f8ddf8e57",
+            "desiredRetention": 0.85,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [
+                0.71339095,
+                0.7437688,
+                5.488218,
+                51.26332,
+                6.1678395,
+                0.61009216,
+                3.4031067,
+                0.004290582,
+                1.958611,
+                0.14942499,
+                0.9059598,
+                1.4247018,
+                0.06335769,
+                0.32401586,
+                1.6794856,
+                0.24779741,
+                2.9255023,
+                0.88587683,
+                0.24585935,
+                0.048742443,
+                0.12670569
+            ],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "1970-01-01",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 5,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Indonesia::Provinces",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Liberation Sans",
+                    "id": 6335723013346074647,
+                    "name": "Provinsi",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 7104164952473239729,
+                    "name": "Ibukota",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -2314753992060942326,
+                    "name": "Peta",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 776834968609761177,
+                    "name": "Kode Wilayah",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "indonesia_province",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Ibukota}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{Provinsi}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 2279402240815359867,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Provinsi}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aceh",
+                "Banda Aceh",
+                "",
+                "11"
+            ],
+            "guid": "r]d1osd+36",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sumatera Utara",
+                "Medan",
+                "",
+                "12"
+            ],
+            "guid": "y@tL-;hgtE",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sumatera Barat",
+                "Padang",
+                "",
+                "13"
+            ],
+            "guid": "PRw8*FL61K",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Riau",
+                "Pekanbaru",
+                "",
+                "14"
+            ],
+            "guid": "m3fC;`4=jO",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jambi",
+                "Jambi",
+                "",
+                "15"
+            ],
+            "guid": "qO%e|Uw0;i",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sumatera Selatan",
+                "Palembang",
+                "",
+                "16"
+            ],
+            "guid": "v.A+R=Sqx:",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bengkulu",
+                "Bengkulu",
+                "",
+                "17"
+            ],
+            "guid": "A>@F2`xfqd",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lampung",
+                "Bandar Lampung",
+                "",
+                "18"
+            ],
+            "guid": "EIgk-RaP=n",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kepulauan Bangka Belitung",
+                "Pangkalpinang",
+                "",
+                "19"
+            ],
+            "guid": "G!ibv/EhiS",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kepulauan Riau",
+                "Tanjung Pinang",
+                "",
+                "21"
+            ],
+            "guid": "iv{dE>CLu6",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DKI Jakarta",
+                "Jakarta",
+                "",
+                "31"
+            ],
+            "guid": "nmk<*@pq3j",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jawa Barat",
+                "Bandung",
+                "",
+                "32"
+            ],
+            "guid": "E]P+KdqS,z",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jawa Tengah",
+                "Semarang",
+                "",
+                "33"
+            ],
+            "guid": "hN~>)*{i*G",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DI Yogyakarta",
+                "Yogyakarta",
+                "",
+                "34"
+            ],
+            "guid": "zO?jp?&lgg",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jawa Timur",
+                "Surabaya",
+                "",
+                "35"
+            ],
+            "guid": "hUJez|X8I$",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Banten",
+                "Serang",
+                "",
+                "36"
+            ],
+            "guid": "Q^>auJ!o-f",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bali",
+                "Denpasar",
+                "",
+                "51"
+            ],
+            "guid": "u03uw__<}c",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nusa Tenggara Barat",
+                "Mataram",
+                "",
+                "52"
+            ],
+            "guid": "iwg-BkG]8U",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nusa Tenggara Timur",
+                "Kupang",
+                "",
+                "53"
+            ],
+            "guid": "H}Ed%zfW.[",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kalimantan Barat",
+                "Pontianak",
+                "",
+                "61"
+            ],
+            "guid": "K;vrU-@^JL",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kalimantan Tengah",
+                "Palangka Raya",
+                "",
+                "62"
+            ],
+            "guid": "fPcRb}Gdg]",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kalimantan Selatan",
+                "Banjarmasin",
+                "",
+                "63"
+            ],
+            "guid": "q<[CWm$r:0",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kalimantan Timur",
+                "Samarinda",
+                "",
+                "64"
+            ],
+            "guid": "g,,U~3K<u0",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kalimantan Utara",
+                "Tanjung Selor",
+                "",
+                "65"
+            ],
+            "guid": "-1<@NXO91s",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sulawesi Utara",
+                "Manado",
+                "",
+                "71"
+            ],
+            "guid": "(*edp=3Ae5",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sulawesi Tengah",
+                "Palu",
+                "",
+                "72"
+            ],
+            "guid": ":dBB,eZL7R",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sulawesi Selatan",
+                "Makassar",
+                "",
+                "73"
+            ],
+            "guid": "$1W9x,D%+m",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sulawesi Tenggara",
+                "Kendari",
+                "",
+                "74"
+            ],
+            "guid": "%GR%#)Zl?m",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gorontalo",
+                "Gorontalo",
+                "",
+                "75"
+            ],
+            "guid": "?D9!m.1p%;",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sulawesi Barat",
+                "Mamuju",
+                "",
+                "76"
+            ],
+            "guid": "+G:Vm3x{3P",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maluku",
+                "Ambon",
+                "",
+                "81"
+            ],
+            "guid": "pUpR:vdK3U",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maluku Utara",
+                "Sofifi",
+                "",
+                "82"
+            ],
+            "guid": ":VfO{7gWH:",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Papua",
+                "Jayapura",
+                "",
+                "91"
+            ],
+            "guid": "]NrI*$mkhX",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Papua Barat",
+                "Manokwari",
+                "",
+                "92"
+            ],
+            "guid": "/:bfGAdMZr",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Papua Selatan",
+                "Merauke",
+                "",
+                "93"
+            ],
+            "guid": "csJQXiy:p?",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Papua Tengah",
+                "Nabire",
+                "",
+                "94"
+            ],
+            "guid": "?5!{8c<njU",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Papua Pegunungan",
+                "Wamena",
+                "",
+                "95"
+            ],
+            "guid": "XPgr#iN.%6",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Papua Barat Daya",
+                "Sorong",
+                "",
+                "96"
+            ],
+            "guid": "X}K!<v[glc",
+            "note_model_uuid": "a953ce00-8dc2-11f1-9b74-a342a3ddf96b",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
