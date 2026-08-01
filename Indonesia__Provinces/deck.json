@@ -296,7 +296,7 @@
                     "id": 1459117058900580872,
                     "name": "Card 4",
                     "ord": 3,
-                    "qfmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n<img src=\"indonesia.svg\">"
+                    "qfmt": "<div style='font-size: 13px;'>Provinsi</div>\n\n{{Provinsi}}\n\n<hr id=answer>\n\n<img src=\"indonesia-provinces.svg\">"
                 }
             ],
             "type": 0
