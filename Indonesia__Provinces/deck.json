@@ -2,15 +2,15 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "a952fe44-8dc2-11f1-9b74-a342a3ddf96b",
-    "deck_config_uuid": "b5ac3510-1a8c-11f1-b08a-099f8ddf8e57",
+    "deck_config_uuid": "58a3827c-2fce-11f1-aa56-8bdf6c6eb63a",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "b5ac3510-1a8c-11f1-b08a-099f8ddf8e57",
-            "desiredRetention": 0.85,
+            "crowdanki_uuid": "58a3827c-2fce-11f1-aa56-8bdf6c6eb63a",
+            "desiredRetention": 0.9,
             "dyn": false,
             "easyDaysPercentages": [
                 1.0,
@@ -23,27 +23,27 @@
             ],
             "fsrsParams5": [],
             "fsrsParams6": [
-                0.71339095,
-                0.7437688,
-                5.488218,
-                51.26332,
-                6.1678395,
-                0.61009216,
-                3.4031067,
-                0.004290582,
-                1.958611,
-                0.14942499,
-                0.9059598,
-                1.4247018,
-                0.06335769,
-                0.32401586,
-                1.6794856,
-                0.24779741,
-                2.9255023,
-                0.88587683,
-                0.24585935,
-                0.048742443,
-                0.12670569
+                0.23195946,
+                1.0596552,
+                3.045346,
+                20.89214,
+                6.216613,
+                0.78134245,
+                3.0435495,
+                0.0013273166,
+                2.0101686,
+                0.21045506,
+                0.9384046,
+                1.51726,
+                0.06539908,
+                0.29526573,
+                1.6702039,
+                0.6321212,
+                2.2173421,
+                0.7282684,
+                0.2685181,
+                0.18311915,
+                0.16559702
             ],
             "fsrsWeights": [],
             "ignoreRevlogsBeforeDate": "1970-01-01",
@@ -58,7 +58,7 @@
                 "mult": 0.0
             },
             "maxTaken": 60,
-            "name": "Default",
+            "name": "8",
             "new": {
                 "bury": false,
                 "delays": [
@@ -72,7 +72,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 20
+                "perDay": 8
             },
             "newGatherPriority": 5,
             "newMix": 0,
@@ -86,7 +86,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
-                "perDay": 200
+                "perDay": 80
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
@@ -101,8 +101,8 @@
     "desc": "",
     "desiredRetention": null,
     "dyn": 0,
-    "extendNew": 0,
-    "extendRev": 0,
+    "extendNew": 44,
+    "extendRev": 20,
     "media_files": [
         "aceh.svg",
         "bali.svg",
@@ -427,7 +427,7 @@
             "__type__": "Note",
             "fields": [
                 "DKI Jakarta",
-                "Jakarta",
+                "Jakarta Pusat",
                 "<img src=\"dki_jakarta.svg\">",
                 "31"
             ],
